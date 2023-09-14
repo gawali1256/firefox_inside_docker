@@ -1,0 +1,1 @@
+# firefox_inside_docker
