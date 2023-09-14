@@ -11,7 +11,7 @@ Start by creating a Dockerfile that describes how to build the Docker image. You
 ## Step 2: Build the Docker Image
 
 Build the Docker image using the following command. Replace `filename` with the name of your Dockerfile.
-
+'''bash
 docker build -t sachin5858/newos:v1 filename .
 
 ## Step 3: Push to Docker Hub
