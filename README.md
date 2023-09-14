@@ -12,7 +12,6 @@ Start by creating a Dockerfile that describes how to build the Docker image. You
 
 Build the Docker image using the following command. Replace `filename` with the name of your Dockerfile.
 
-```bash
 docker build -t sachin5858/newos:v1 filename .
 
 ## Step 3: Push to Docker Hub
@@ -29,7 +28,7 @@ docker run -it --rm --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root
 
 This will launch Firefox inside the container, and you can use it just like a regular browser.
 
-Step 4: Use Anywhere
+## Step 4: Use Anywhere
 You can now use the Docker image to launch Firefox anywhere you need it. Simply pull the image and run the container as shown in step 3.
 
 Feel free to customize the Dockerfile and image as per your requirements.
